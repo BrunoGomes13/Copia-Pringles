@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box; 
+}
+body{
+    overflow-x: hidden;
+} 
+.white{
+    color: #fff;
+}
+main{
+    background-color: #E40426;
+}
+.container{
+    background: #ff0000;
+    display:flex;
+    justify-content: space-around;
+    height: 12vh;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logomarca img{
+    width: 70%;
+    position: relative;
+    top:45px;
+    left:80px
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links .itens{
+    list-style: none;
+    padding:0 15px;
+}
+.links .itens a{
+    text-decoration: none;
+    font-size: 23px;
+}
+.links .itens a:hover{
+    color: #ffe100;
+}
+.elementos img{
+    position: relative;
+    right: 55px;
+    width: 25%;
+    padding: 0 5px;
+    transition: .1s;
+}
+.elementos img:hover{
+    transform: scale(1.1);
+}
+/* Main */
+main img{
+    width: 100%;
+    display: block;
+}
+.termos{
+    background: #E40426;
+    color:#fff;
+}
+.espaco{
+    margin-left: 6vw;
+    margin-bottom: 25px;
+}
+.texto{
+    max-width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.titulo{
+    padding: 20px 0 10px 0;
+}
+.texto a{
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-monopolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+}
+.coluna-1 h2{
+    font-size: 75px;
+    text-align: left;
+    line-height: 65px;
+    max-width: 95%;
+    color: #fff;
+}
+.coluna-1 p{
+    color: #dddada;
+    margin: 27px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.grid-interno{
+    display: flex;
+    justify-content: space-around;
+    max-width: 450px;
+    align-items: center;
+    background-color: #2e3369;
+    border-radius: 5px;
+    padding: 10px;
+}
+.grid-interno h3{
+    max-width: 90%;
+    text-align: justify;
+    margin-left: 10%
+}
+.seta{
+    width: 8% !important;
+    margin-left: 15%;
+}
+.celular{
+    width: 15% !important;
+}
+.qrcode{
+    width: 90% !important;
+    margin-left: 10%;
+}
+.coluna-1 footer{
+    margin-top: 5%;
+    color: #fff;
+    font-size: 15px;
+}
+/* Parte 2 */
+.container-2{
+    background: #009D81;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.container-2 img{
+    max-width: 40% !important;
+}
+.publicidade{
+    text-align: left;
+    padding: 0 55px;
+    max-width: 35%;
+    margin-left: 10%;
+}
+.publicidade h2{
+    font-size: 28px;
+}
+.publicidade h1{
+    font-size: 50px;
+    padding: 20px 0;
+    line-height: 55px;
+}
+.publicidade p{
+    color: #fffafa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding: 25px 0;
+    margin: 0 0 20px 0;
+}
+.publicidade a{
+    text-decoration: none;
+    background-color: #ff0000;
+    padding: 18px 25px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 4px solid #fff;
+    transition: .1s;
+}
+.publicidade a:hover{
+    background-color: #fff;
+    color: #ff0000;
+}
+.container-3.publicidade h2, .container-3.publicidade p{
+    color: #000;
+}
+.container-3.publicidade h1{
+    color: #ff0000;
+    font-size: 60px;
+}
+.container-3{
+    text-align: center;
+    margin: 25px auto 0 auto;
+}
+.container-3.publicidade a:hover{
+    border: 4px solid #efefef
+}
+.container-3.publicidade {
+    max-width: 53%;
+}
+.container-3.publicidade img{
+    max-width: 90%;
+}
+.avisos{
+    background: #E40426;
+    height: 70vh;
+}
+.container-footer{
+    padding: 90px 0 0 0;
+}
+.container-footer .links{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 45px;
+}
+.container-footer .itens::after{
+    content: '';
+    width: 100%;
+    height: 0.1px;
+    background: #b1b1b1;
+    display: block;
+    opacity: 0.7;
+    margin: 15px 0 0 0;
+}
+.redes-sociais{
+    display: flex;
+    gap: 30px;
+}
+.redes-sociais img{
+    position: relative;
+    right: -75%;
+    top:10px;
+    transition: .1s;
+}
+.redes-sociais img:hover{
+    transform: scale(1.1);
+}
+.rodape{
+    position: relative;
+    right: -67%;
+    top:50px;
+}
+.termos::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+.termos::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
